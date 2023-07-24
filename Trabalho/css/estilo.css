@@ -6,6 +6,7 @@ header img {
     
 }
 
+<<<<<<< HEAD
 #body-login {
     background-image: url(../img/back-login.jpg);
     background-position: center;
@@ -38,6 +39,9 @@ header img {
 }
 
 #body-home{
+=======
+body{
+>>>>>>> 1291256d0689cebfff86f94426369aeb349752ac
     background-image: linear-gradient(to bottom, #290D7A, #0D0C32);
 
 }
@@ -210,6 +214,7 @@ header img {
     font-weight: bold;
     text-align: center;
 }
+<<<<<<< HEAD
 #galeria-outros h3{
     color: white;
     text-align: center;
@@ -232,6 +237,8 @@ header img {
     margin-bottom: 30px;
     border: 1px solid #ccc;
 }
+=======
+>>>>>>> 1291256d0689cebfff86f94426369aeb349752ac
 
 /*Rodapé*/
     footer img{
