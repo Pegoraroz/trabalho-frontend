@@ -1,0 +1,301 @@
+/*Cabeçalho*/
+
+header img {
+    height: 100px;
+    width: 120px;
+    
+}
+
+#body-login {
+    background-image: url(../img/back-login.jpg);
+    background-position: center;
+    background-size: cover; /* Para garantir que a imagem cubra todo o elemento */
+    width: 100%; /* Preenche a largura do elemento */
+    height: 100vh; /* Preenche a altura do elemento ocupando a altura da tela */
+    display: flex;
+    justify-content: center;
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+}
+
+#body-login::before {
+    content: '';
+    background: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1; /* Posiciona o pseudo-elemento atrás do conteúdo */
+    opacity: 0.6; /* Define a opacidade do fundo das letras (opcional) */
+}
+
+#section-login{
+    color: white;
+}
+
+#form-cadastrar{
+    color: white;
+}
+
+#body-home{
+    background-image: linear-gradient(to bottom, #290D7A, #0D0C32);
+
+}
+/*letras*/
+
+
+.nav-link{
+    color: white;
+    
+}
+
+
+/*Conteudo principal*/
+#section-banners img{
+    height: 500px;
+    margin: auto;
+    padding: 0px;
+    width: 75%;
+
+}
+
+#section-banners{
+   margin: auto;
+}
+
+
+/*banner*/
+.carousel-control-prev{
+    margin: -20px;
+}
+.carousel-control-next{
+    margin: -20x;
+}
+.foto-destaque {
+    display: flex;
+    align-items: flex-end;
+}
+
+.foto-destaque img{
+    height: 500px;
+    margin-left: 25px;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+.texto-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+#texto-destaque{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+#texto-artigo{
+    font-size: 20px;
+    text-align: center;
+}
+#link-artigo{
+    font-size: 30px;
+    align-self: center;
+    color: white;
+}
+/*Galeria destaque */
+#texto-galeria{
+    margin-top: 20px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+.foto-galeria-destaque{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto-galeria-destaque img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+/* jogo lançamento */
+.jogo-lancamento {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-direction: row-reverse;
+}
+  
+.jogo-lancamento img {
+    height: 450px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+}
+  
+.lancamento-texto-css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#lancamento-texto {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 35px;
+}
+  
+#lancamento-texto-h1 {
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 25px;
+}
+  
+#lancamento-texto-h2 {
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+
+#link-lancamento{
+    margin-top: 25px;
+    font-size: 30px;
+    align-self: center;
+    color: white;
+}
+
+
+/*Produtos vendidos*/
+#section-vendidos {
+    text-align: center;
+    
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    
+}
+
+#section-vendidos img{
+    height: 300px;
+
+    
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+}
+
+#section-vendidos .preco{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#galeria-outros h3{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.fotos-galeria-outros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fotos-galeria-outros img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+/*Rodapé*/
+    footer img{
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+    }
+.logo-img{
+    width: 200px;
+    height: auto;
+}
+    footer{
+        position: relative;
+        bottom:0;
+       
+    }
+
+    footer p{
+        text-align: center;
+        font-weight: bold;
+        
+        padding: 10px;
+    }
+.navbar-nav.flex-column .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.retangulo{
+    height: auto;
+    width: auto;   
+    background-color: #10071f;
+}
+/*Botão Voltar topo*/
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+}
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
